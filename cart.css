@@ -1,0 +1,29 @@
+body{background-color: #dbdbdb;}
+.mybag{
+    border: 1px solid white;
+    background-color: white;
+    float: left;
+    padding: 20px;
+}
+.mybag input{width: 50px; margin-left: 50px;
+}
+.mybag button {border-radius: 3px; margin-top: 20px; margin-left: 50px; border: 1px solid black;}
+.order{border: 1px solid white; float: left;}
+
+.text {border: 1px dashed white; float: left; margin-left: 50px;}
+.text p {font-size: large;}
+
+.total{
+    border: 1px solid white;
+    background-color: white;
+    float: left;
+    margin-left: 30px;
+    width: 500px;
+}
+.total table{width: 300px; margin: 0 auto;}
+.total button {background-color: black; width: max-content; margin-left: 40%; margin-top: 30px;
+                border: 1px solid black;}
+.total button a {text-decoration: none; color: white; background-color: black; 
+}
+.total p {text-align: center; }
+.total p a {text-decoration: none;}

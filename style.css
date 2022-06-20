@@ -1,0 +1,44 @@
+body { 
+    font-weight: bold;
+   
+    }
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    z-index: 99;
+}
+
+
+.name p{color: white}
+.name input {width: 200px; height: 20px; position: absolute; margin-left: 40%;  border-radius: 10px; border: none; bottom: 10px;}
+.name button {border-style: none; width:max-content; height: max-content; cursor: pointer; position: absolute;
+     margin-left: 55.5%; bottom: 10px; border-radius: 40px;}
+
+.menu {border: 1px solid black; margin-left: 50%; padding: 20px;}
+.menu a { text-decoration: none; color: white; margin-right: 39px;;}
+
+img {height: 300px;}
+.stuffone {border: 1px solid white; width: 1200px; margin: 0 auto; margin-bottom: 1000px;}
+
+.item {float: left; margin-right: 20px; margin-bottom: 25px;}
+.item p {color: rgba(0, 0, 0, 0.384); text-align: center; font-family:'Times New Roman', Times, serif;}
+.item button {width: max-content; background-color: black; color: white; border-style: none; margin-left: 100px;}
+.item button a {text-decoration: none; color: white;}
+
+.stufftwo {border: 3px solid white; margin-top: 900px; width: 1200px; margin: 0 auto; top: 500px;}
+.stufftwo .item {margin-top: 30px; margin-right: 20px;}
+
+.firtwallpaper button {background-color: blue;}
+
+table {color: white; background-color: black; width: 100%;}
+th, td {color: white; cursor: pointer;}
+
+@media only screen and(max-width: 768px) {
+    .menu{display: block;}
+ }
